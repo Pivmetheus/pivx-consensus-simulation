@@ -8,7 +8,7 @@ function main(sources) {
     const name$ = input$.map(ev => ev.target.value).startWith('');
 
     const vdom$ = name$.map(name =>
-        h("p", "hello"  )
+        h("p", "hello")
     );
 
     return { DOM: vdom$ }

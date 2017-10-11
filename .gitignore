@@ -1,4 +1,5 @@
 .idea/
 web/node_modules/
 web/jspm_packages/
-web/dist/
+web/dist/app.js
+web/dist/app.js.map

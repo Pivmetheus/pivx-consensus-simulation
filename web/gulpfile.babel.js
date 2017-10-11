@@ -11,7 +11,7 @@ gulp.task('server:stop', function (callback) {
 });
 
 gulp.task('build', function () {
-    
+    spawn('jspm', 'build --source-map-contents source/app.ts dist/app.js'.split(' '))
 })
 
 
