@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "typeRoots" : ["./web/jspm_packages"]
+  }
+}
